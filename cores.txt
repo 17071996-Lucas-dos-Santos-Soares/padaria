@@ -1,0 +1,7 @@
+hover:#F2994B
+fundo-produtos:#402E1E
+cor default:#D9C9BA
+cor-intermediaria:#D96B2B
+cor-escura:#8C391B
+
+link:https://afornadapadaria.com.br/

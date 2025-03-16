@@ -13,6 +13,20 @@ body,html {
     background-color: var(--marrom-claro);
     color: #fff;
 }
+
+.nav-link {
+  text-align: center;
+  transition: all .3s ease-in-out;
+}
+.nav-link:hover{
+  background: #B29463;
+  transition: all .3s ease-in-out;
+  border-radius: 30px;
+  color: #fff;
+}
+.nav-link i:hover{
+  color: #fff;
+}
 span.navbar-toggler-icon {
   background-color: #cfe2ff;
   color: #fff;

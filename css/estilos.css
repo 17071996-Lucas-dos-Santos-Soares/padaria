@@ -131,7 +131,12 @@ margin-top: 2rem;
 .title-servicos {
   margin-top: 2rem;
 }
-
+.modal-title{
+  background: var(--marrom-claro);
+  color: #fff;
+  padding: 0px 10px;
+  border-radius: 15px;
+}
 input[type=checkbox] {
   border: 2px solid var(--marrom-claro);
   box-shadow: none;

@@ -222,7 +222,7 @@ input[type="checkbox"]:focus {
     --bs-bg-opacity: .2;
 }
 .botao-padrao {
-  background-color: var(--marrom-claro);
+  background-color: #ccab75;
   color: black;
   border: none;
   margin-top: 10px;

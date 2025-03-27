@@ -95,7 +95,7 @@ span.navbar-toggler-icon {
   font-size: 1.1rem;
   font-weight: 300;
   text-transform: capitalize;
-  border-radius: 15px;
+  border-radius: 30px;
   color: #fff;
 }
 .main-btn:hover {
@@ -135,7 +135,7 @@ margin-top: 2rem;
   background: var(--marrom-claro);
   color: #fff;
   padding: 0px 10px;
-  border-radius: 15px;
+  border-radius: 30px;
 }
 input[type=checkbox] {
   border: 2px solid var(--marrom-claro);
@@ -144,7 +144,7 @@ input[type=checkbox] {
 .card {
   width: 100%;
   margin: 10px;
-  border: solid 1.5px #B29463;
+  border: solid 2px #B29463;
 }
 .card:hover{
   transition: all 0.2s ease-in-out;
@@ -221,12 +221,14 @@ input[type="checkbox"]:focus {
 .banners-titulo {
     --bs-bg-opacity: .2;
 }
-.botao-padrao {
+.botao-padrao{
   background-color: #ccab75;
   color: black;
   border: none;
   margin-top: 10px;
-  border-radius: 10px;
+  border-radius: 30px;
+  margin: 0 auto;
+  box-shadow: #00000059 0px 5px 15px;
 }
 
 .botao-padrao:hover {

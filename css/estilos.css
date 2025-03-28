@@ -309,7 +309,10 @@ footer p {
   font-size: 1rem;
   font-family: "Barlow", sans-serif;
 }
-
+.modal-content{
+  background: #fff;
+  border: solid 3px #bf9f6b;
+}
 /* responsividade tablet */
 @media(max-width:988px) {
   #servicos {

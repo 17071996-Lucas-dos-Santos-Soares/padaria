@@ -128,6 +128,13 @@ input[type=checkbox] {
   border: 2px solid var(--marrom-claro);
   box-shadow: none;
 }
+.card {
+  margin: 10px;
+  border: solid 3px #B29463;
+}
+.card h3{
+  font-size: 20px;
+}
 .card-title {
   text-align: left;
 }

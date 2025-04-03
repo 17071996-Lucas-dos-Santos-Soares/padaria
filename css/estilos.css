@@ -193,7 +193,7 @@ input[type="checkbox"]:focus {
   color: black;
   border: none;
   margin-top: 10px;
-  border-radius: 10px;
+  border-radius: 30px;
 }
 
 .botao-padrao:hover {

@@ -138,6 +138,9 @@ input[type=checkbox] {
 .card-title {
   text-align: left;
 }
+.card:hover{
+  background: var(--marrom-claro);
+}
 .offcanvas-title {
   color: #E6E0D6;
   text-align: center;

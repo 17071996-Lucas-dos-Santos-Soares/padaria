@@ -13,20 +13,6 @@ body,html {
     background-color: var(--marrom-claro);
     color: #fff;
 }
-
-.nav-link {
-  text-align: center;
-  transition: all .3s ease-in-out;
-}
-.nav-link:hover{
-  background: #B29463;
-  transition: all .3s ease-in-out;
-  border-radius: 30px;
-  color: #fff;
-}
-.nav-link i:hover{
-  color: #fff;
-}
 span.navbar-toggler-icon {
   background-color: #cfe2ff;
   color: #fff;
@@ -87,8 +73,13 @@ span.navbar-toggler-icon {
   font-size: 23px;
   text-shadow: 1px 1px 1px #00000080;
 }
-.main-btn {
-  margin-left: -68rem;
+.main-btn a{
+  color: #fff;
+  text-decoration: none;
+}
+.main-btn{
+  width: 150px;
+  margin-left: 1rem;
   background: transparent;
   border: 1px solid #fff;
   padding:0px 15px;
@@ -97,6 +88,7 @@ span.navbar-toggler-icon {
   text-transform: capitalize;
   border-radius: 30px;
   color: #fff;
+  padding: 5px;
 }
 .main-btn:hover {
   transition: all .2s ease-in-out;
@@ -131,38 +123,13 @@ margin-top: 2rem;
 .title-servicos {
   margin-top: 2rem;
 }
-.modal-title{
-  background: var(--marrom-claro);
-  color: #fff;
-  padding: 0px 10px;
-  border-radius: 30px;
-}
+
 input[type=checkbox] {
   border: 2px solid var(--marrom-claro);
   box-shadow: none;
 }
-.card {
-  width: 100%;
-  margin: 10px;
-  border: solid 2px #B29463;
-}
-.card:hover{
-  transition: all 0.2s ease-in-out;
-  border: solid 1.5px #B29463;
-  background: #B29463;
-  color: #fff;
-}
 .card-title {
-  color: #444;
-}
-.card-text{
-  text-align: left;
-  font-size: 16px;
-  color: #444;
-  border-radius: 30px;
-}
-.card-text:hover{
-  color: #fff;
+  text-align: center;
 }
 .offcanvas-title {
   color: #E6E0D6;
@@ -189,7 +156,7 @@ input[type="checkbox"]:focus {
 
 .banners {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center,center;
@@ -208,8 +175,8 @@ input[type="checkbox"]:focus {
   background-image: url(../assets/sobre-teste.webp);
 }
 .banners {
-  width: 100%;
   height: 100vh;
+  width: 100%;
   background-repeat: no-repeat;
   background-size: cover; 
   background-position: left, center;
@@ -221,14 +188,12 @@ input[type="checkbox"]:focus {
 .banners-titulo {
     --bs-bg-opacity: .2;
 }
-.botao-padrao{
-  background-color: #ccab75;
+.botao-padrao {
+  background-color: var(--marrom-claro);
   color: black;
   border: none;
   margin-top: 10px;
-  border-radius: 30px;
-  margin: 0 auto;
-  box-shadow: #00000059 0px 5px 15px;
+  border-radius: 10px;
 }
 
 .botao-padrao:hover {
@@ -309,10 +274,7 @@ footer p {
   font-size: 1rem;
   font-family: "Barlow", sans-serif;
 }
-.modal-content{
-  background: #fff;
-  border: solid 3px #bf9f6b;
-}
+
 /* responsividade tablet */
 @media(max-width:988px) {
   #servicos {

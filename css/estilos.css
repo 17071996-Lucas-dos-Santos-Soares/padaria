@@ -141,6 +141,14 @@ input[type=checkbox] {
 .card:hover{
   background: var(--marrom-claro);
 }
+.modal-content{
+  border: solid 3px #B29463;
+}
+.modal-title{
+  background: #B29463;
+  color: #fff;
+  padding: 5px;
+}
 .offcanvas-title {
   color: #E6E0D6;
   text-align: center;
